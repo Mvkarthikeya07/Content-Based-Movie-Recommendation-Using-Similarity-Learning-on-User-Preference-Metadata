@@ -169,6 +169,10 @@ Interests: Machine Learning, AI Systems, Data Science
 
 GitHub: https://github.com/Mvkarthikeya07
 
+📜 License
+
+This project is licensed under the MIT License.
+
 ⭐ Final Remarks
 
 This project represents a production-ready, academically solid recommendation system, demonstrating both theoretical understanding and practical implementation of machine learning concepts in a real-world application.
