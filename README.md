@@ -91,13 +91,9 @@ Recommended movies are displayed instantly
 🖥️ Application Screenshots
 Home Page – Movie Search Interface
 
-<img width="1366" height="768" alt="Screenshot (52)" src="https://github.com/user-attachments/assets/fce18394-5089-436f-92ce-4a7fdb40a58c" />
-
 Displays the movie search interface where users request recommendations.
 
 Recommendation Results Page
-
-<img width="1366" height="768" alt="Screenshot (53)" src="https://github.com/user-attachments/assets/89c5578c-d082-4f6d-88e6-805ad5f1c56e" />
 
 Shows the top recommended movies generated using similarity analysis.
 
@@ -108,7 +104,7 @@ cd advance_movie_recommendation_app
 
 2️⃣ Create a Virtual Environment (Recommended)
 python -m venv venv
-source venv/bin/activate    # Windows: venv\Scripts\activate
+source venv/bin/activate   # Windows: venv\Scripts\activate
 
 3️⃣ Install Dependencies
 pip install -r requirements.txt
@@ -148,6 +144,21 @@ Clear separation of ML logic and web logic
 Clean MVC-style Flask architecture
 
 Easily extensible for advanced recommendation models
+
+📄 Research Publication
+
+The research foundation and comparative analysis related to this project have been published in a peer-reviewed journal.
+
+Title:
+Comparative Analysis of User-Based and Item-Based Collaborative Filtering Using the MovieLens Dataset
+
+Journal:
+International Journal of Innovative Research in Electrical, Electronics, Instrumentation and Control Engineering (IJIREEICE)
+
+Publication Link:
+https://ijireeice.com/papers/comparative-analysis-of-user-based-and-item-based-collaborative-filtering-using-the-movielens-dataset/
+
+This publication complements the project by providing a theoretical and experimental comparison of collaborative filtering techniques, while the current system focuses on a deployable content-based recommendation architecture.
 
 🔮 Future Enhancements
 
