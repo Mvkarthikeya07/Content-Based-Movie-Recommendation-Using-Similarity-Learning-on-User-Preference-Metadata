@@ -22,12 +22,7 @@ Showcase applied machine learning in a real-world use case
 
 🚀 Key Features
 
-✔ Content-based movie recommendations
-✔ Real-time similarity matching
-✔ Clean and intuitive user interface
-✔ Lightweight and fast inference
-✔ Modular and maintainable codebase
-✔ Graceful error handling
+✔ Content-based movie recommendations ✔ Real-time similarity matching ✔ Clean and intuitive user interface ✔ Lightweight and fast inference ✔ Modular and maintainable codebase ✔ Graceful error handling
 
 🧠 Recommendation Approach
 
@@ -35,48 +30,17 @@ The system uses Content-Based Filtering, a widely adopted technique in modern re
 
 Methodology
 
-Data Preparation
-Movie metadata is cleaned and structured for analysis.
+Data Preparation Movie metadata is cleaned and structured for analysis.
 
-Feature Engineering
-Textual features are transformed using TF-IDF Vectorization.
+Feature Engineering Textual features are transformed using TF-IDF Vectorization.
 
-Similarity Measurement
-Cosine Similarity is used to quantify relationships between movies.
+Similarity Measurement Cosine Similarity is used to quantify relationships between movies.
 
-Recommendation Generation
-The top-N most similar movies are returned for a given input title.
+Recommendation Generation The top-N most similar movies are returned for a given input title.
 
 This approach ensures recommendations are interpretable, scalable, and efficient.
 
-🏗️ Project Structure
-movie_recommendation_app/
-│
-├── __pycache__/
-│
-├── assets/
-│   └── screenshots/
-│       ├── home_page.png
-│       └── recommendations_page.png
-│
-├── static/
-│   └── style.css
-│
-├── templates/
-│   ├── index.html
-│   ├── recommend.html
-│   └── error.html
-│
-├── app.py
-├── model.py
-│
-├── movies.csv
-├── ratings.csv
-├── train.csv
-│
-├── requirements.txt
-├── LICENSE
-└── README.md
+🏗️ Project Structure movie_recommendation_app/ │ ├── pycache/ │ ├── assets/ │ └── screenshots/ │ ├── home_page.png │ └── recommendations_page.png │ ├── static/ │ └── style.css │ ├── templates/ │ ├── index.html │ ├── recommend.html │ └── error.html │ ├── app.py ├── model.py │ ├── movies.csv ├── ratings.csv ├── train.csv │ ├── requirements.txt ├── LICENSE └── README.md
 
 🔄 Application Workflow
 
@@ -88,32 +52,25 @@ ML model computes similarity scores
 
 Recommended movies are displayed instantly
 
-🖥️ Application Screenshots
-Home Page – Movie Search Interface
+🖥️ Application Screenshots Home Page – Movie Search Interface
 
+Screenshot (52)
 Displays the movie search interface where users request recommendations.
 
 Recommendation Results Page
 
+Screenshot (53)
 Shows the top recommended movies generated using similarity analysis.
 
-⚙️ Installation & Usage
-1️⃣ Clone the Repository
-git clone https://github.com/Mvkarthikeya07/advance_movie_recommendation_app.git
-cd advance_movie_recommendation_app
+⚙️ Installation & Usage 1️⃣ Clone the Repository git clone https://github.com/Mvkarthikeya07/advance_movie_recommendation_app.git cd advance_movie_recommendation_app
 
-2️⃣ Create a Virtual Environment (Recommended)
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
+2️⃣ Create a Virtual Environment (Recommended) python -m venv venv source venv/bin/activate # Windows: venv\Scripts\activate
 
-3️⃣ Install Dependencies
-pip install -r requirements.txt
+3️⃣ Install Dependencies pip install -r requirements.txt
 
-4️⃣ Run the Application
-python app.py
+4️⃣ Run the Application python app.py
 
-5️⃣ Access the Web App
-http://127.0.0.1:5000
+5️⃣ Access the Web App http://127.0.0.1:5000
 
 🧪 Technologies Used
 
@@ -174,9 +131,7 @@ REST API and cloud deployment
 
 👤 Author
 
-M V Karthikeya
-Computer Science Engineer
-Interests: Machine Learning, AI Systems, Data Science
+M V Karthikeya Computer Science Engineer Interests: Machine Learning, AI Systems, Data Science
 
 GitHub: https://github.com/Mvkarthikeya07
 
@@ -187,3 +142,4 @@ This project is licensed under the MIT License.
 ⭐ Final Remarks
 
 This project represents a production-ready, academically solid recommendation system, demonstrating both theoretical understanding and practical implementation of machine learning concepts in a real-world application.
+
