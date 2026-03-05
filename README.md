@@ -39,9 +39,9 @@ Similarity Measurement Cosine Similarity is used to quantify relationships betwe
 Recommendation Generation The top-N most similar movies are returned for a given input title.
 
 This approach ensures recommendations are interpretable, scalable, and efficient.
-
+````
 🏗️ Project Structure movie_recommendation_app/ │ ├── pycache/ │ ├── assets/ │ └── screenshots/ │ ├── home_page.png │ └── recommendations_page.png │ ├── static/ │ └── style.css │ ├── templates/ │ ├── index.html │ ├── recommend.html │ └── error.html │ ├── app.py ├── model.py │ ├── movies.csv ├── ratings.csv ├── train.csv │ ├── requirements.txt ├── LICENSE └── README.md
-
+`````
 🔄 Application Workflow
 
 User enters a movie title
